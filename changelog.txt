@@ -1,0 +1,7 @@
+******************
+:: Version - 3.5.0
+******************
+
+> Updated: Bootstrap v4.0.0 > Bootstrap v4.1.1
+> Updated: All SCSS Mixins.
+> Improved: SCSS Code Quality.
