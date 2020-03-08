@@ -327,8 +327,8 @@ body .progress_inner__tabs .tab h1 {
 }
 
 body .progress_inner__tabs .tab p {
-  font-size: 18px;
-  width: 60%;
+  font-size: 20px;
+  width: 65%;
   margin: auto;
 }
 @media only screen and (max-width: 767px) {
