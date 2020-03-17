@@ -259,7 +259,8 @@
         // $('.success').hide();
         e.preventDefault();
         var frm= $(this).serialize();
-         frm+='&srcPage=FullStack'
+         frm+='&srcPage=Bootcamp'
+         console.log(frm)
         $.ajax({
             method: 'POST',
             url: "mail.php",
@@ -269,9 +270,11 @@
                 $('.success-msg').fadeIn(700);
                 window.setTimeout(function() {
                     window.location.href = 'thankyou.html';
-                }, 3000);
+                }, 1500);
             },
             error: function(e,a){
+                console.log(e)
+                console.log(a)
             }
         }
         );
