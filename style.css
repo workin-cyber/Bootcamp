@@ -192,7 +192,7 @@ a:hover {
   outline: none;
   font-weight: 500;
   font-size: 15px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: #ffffff;
 }
 
@@ -1724,7 +1724,7 @@ header {
 
 .single-accordion h5 {
   margin-bottom: 0;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .single-accordion h5 a {
@@ -2086,48 +2086,6 @@ header {
 .message_now_area {
   position: relative;
   z-index: 1;
-}
-
-.message_now_area input {
-  border-width: 2px;
-  border-style: solid;
-  border-color: #f2f4f8;
-  height: 50px;
-  margin-bottom: 0;
-  -webkit-transition-duration: 500ms;
-  transition-duration: 500ms;
-  width: 100%;
-  box-shadow: none;
-  font-weight: 300;
-  font-size: 12px;
-  text-transform: uppercase;
-}
-
-.message_now_area input:focus {
-  border-width: 2px;
-  border-style: solid;
-  box-shadow: none;
-}
-
-.message_now_area textarea {
-  border-width: 2px;
-  border-style: solid;
-  border-color: #f2f4f8;
-  height: 150px;
-  margin-bottom: 0;
-  -webkit-transition-duration: 500ms;
-  transition-duration: 500ms;
-  width: 100%;
-  box-shadow: none;
-  font-weight: 300;
-  font-size: 12px;
-  text-transform: uppercase;
-}
-
-.message_now_area textarea:focus {
-  border-width: 2px;
-  border-style: solid;
-  box-shadow: none;
 }
 
 .success-msg {
@@ -2610,4 +2568,9 @@ fieldset {
   top: 15px;
   width: 30%;
   opacity: .5;
+}
+
+.timeCourses {
+  text-align: right;
+  margin-right: 7%;
 }
