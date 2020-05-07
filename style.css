@@ -410,7 +410,15 @@ img.img-syllabus {
 .section_padding_btm_50 {
   padding-bottom: 50px;
 }
-
+.pb-50{
+  padding-bottom: 50px;
+}
+.pb-100{
+  padding-bottom: 100px;
+}
+.pb-200{
+  padding-bottom: 200px;
+}
 .section_heading {
   position: relative;
   z-index: 1;
